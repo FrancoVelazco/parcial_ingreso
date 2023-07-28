@@ -88,10 +88,14 @@ class App(customtkinter.CTk):
         self.lista_nombre_pokemones = ["Pikachu", "Charizard", "Bulbasaur", "Squirtle", "Jigglypuff", "Psyduck", "Eevee", "Gengar", "Mewtwo", "Vaporeon"]
         self.lista_poder_pokemones = [80, 150, 70, 90, 60, 100, 75, 120, 180, 95]
         self.lista_tipo_pokemones = ["eléctrico", "fuego", "planta", "agua", "normal", "agua", "normal", "fantasma", "psíquico", "agua"]
-# B) Al presionar el boton mostrar se deberan listar los pokemones y su posicion en la lista (por terminal) 
-# y mostrar los informe del punto C.
+
 
     
+
+
+        # CONFUNDI MI DNI, en vez de temrinar en 310 termina en 784, disculpas
+
+
 
     def btn_mostrar_informe_1(self):
         #! 0) - Cantidad de pokemones de tipo Fuego cuyo poder de pelea con un 10% extra supere los 100 puntos.
@@ -109,7 +113,7 @@ class App(customtkinter.CTk):
                 poder = poder + (poder * 10 / 100)
                 if poder > 100:
                     contador_fuego += 1
-                    
+
         # for i, tipo in enumerate(self.lista_tipo_pokemones):
         #     if tipo == "fuego":
         #         poder = self.lista_poder_pokemones[i] * 1.1
